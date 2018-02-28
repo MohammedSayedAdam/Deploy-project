@@ -1,5 +1,4 @@
-# Deploy-project
-## Linux-Server-Configuration
+# Linux-Server-Configuration
 
 This project is the last part of the `Fullstack Web Development Nanodegree`, it ensures that you have solid foundation in configuring and securing linux servers and have the experience to deploy applications using apache web server.
 
@@ -216,7 +215,7 @@ sudo nano /etc/apache2/sites-enabled/000-default.conf
 		Allow from all
 	</Directory>
 	Alias /static /var/www/item-project/project4/static
-	<Directory /var/www/item-catalog/itemcatalogproject/static/>
+	<Directory /var/www/item-project/project4/static/>
 		Order allow,deny
 		Allow from all
 	</Directory>
